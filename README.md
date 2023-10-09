@@ -14,7 +14,7 @@ This session introduces attendees to the SAP Digital Manufacturing solution and 
 
 The requirements to follow the exercises in this repository are:
 1. Basic understanding of SAP Digital Manufacturing. An overview will be provided as part of this session.
-2. Access to the test environment for SAP Digital Manufacturing. Access will be provided as part of this session.
+2. Access to the test environment for SAP Digital Manufacturing. Access will be provided as part of this session. Majority of exercices will use low-code/no-code capabilities in SAP DM
 3. Access to a tool to invoke SAP Digital Manufacturing APIs. Postman will be used as part of this session.
 
 ## Exercises
