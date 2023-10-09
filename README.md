@@ -4,15 +4,18 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called 116781 - Design and Build Extensions on SAP Digital Manufacturing.  
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to the SAP Digital Manufacturing solution and how to extend it. Learn about using APIs, events, process design (BPMN-based modeling environment that supports low-code/no-code extensions), custom attributes, custom UI plug-ins, and artificial intelligence and machine learning enablement. Hands-on exercises focussed on low-code/no-code extensions will be provided.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are:
+1. Basic understanding of SAP Digital Manufacturing. An overview will be provided as part of this session.
+2. Access to the test environment for SAP Digital Manufacturing. Access will be provided as part of this session.
+3. Access to a tool to invoke SAP Digital Manufacturing APIs. Postman will be used as part of this session.
 
 ## Exercises
 
