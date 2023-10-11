@@ -13,9 +13,18 @@ This session introduces attendees to the SAP Digital Manufacturing solution and 
 ## Requirements
 
 The requirements to follow the exercises in this repository are:
-1. Basic understanding of SAP Digital Manufacturing. An overview will be provided as part of this session.
-2. Access to the test environment for SAP Digital Manufacturing. Access will be provided as part of this session. Majority of exercices will use low-code/no-code capabilities in SAP DM
+1. Basic understanding of [SAP Digital Manufacturing (SAP DM)](https://help.sap.com/docs/sap-digital-manufacturing). An overview will be provided as part of this session.
+   1. It is recommended to familiarize yourself with the [Help Documentation](https://help.sap.com/docs/sap-digital-manufacturing/production-process-designer/create-production-process-design) on Production Process Designer (PPD).
+2. Access to the test environment for SAP Digital Manufacturing. Access will be provided as part of this session. Majority of exercises will use low-code/no-code capabilities in SAP DM
 3. Access to a tool to invoke SAP Digital Manufacturing APIs. Postman will be used as part of this session.
+4. Service Key to invoke DM APIs
+   1. Username: Will be shared during the session
+   2. Password: Will be shared during the session
+5. Set the _Plant_ context for your session (the plant assigned to you will be provided during the session)
+    1. Open the SAP Digital Manufacturing UI in your browser.
+    2. Click on the Plant Icon ![Plant](exercises/ex0/images/Plant Icon.png) on the top right corner of the screen.
+    3. Select the Plant assigned to you from the list of plants.
+
 
 ## Exercises
 
