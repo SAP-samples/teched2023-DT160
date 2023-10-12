@@ -12,7 +12,7 @@ After completing this exercise, you will be able to:
 
 ## Exercise 1.1 - **Create** a Production Process
 1. Open the SAP Digital Manufacturing UI in your browser.
-2. Go to the app **Design Production Process**. _Tip - Use the Search at the top of the UI to find the app_
+2. Go to the app **Design Production Processes**. _Tip - Use the Search at the top of the UI to find the app_
 3. Click on the **Create** button
 4. Provide the mandatory details in the **Create Production Process Design** dialog box.
     - **Name** - Enter a Name for the Production Process Design. For example, **User_Exercise1**.
@@ -131,4 +131,4 @@ After completing this exercise, you will be able to:
 ## Summary
 
 Now that you have completed the first exercise, let's have a look at the key apps that enable us monitor and manage the production processes.
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
