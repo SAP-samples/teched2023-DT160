@@ -82,7 +82,7 @@ After completing this exercise, you will be able to:
 2. In the dialog that opens, click on the **Deploy and Activate** button
     1. A toast message will inform on the status of the deployment
 
-## Exercise 1.3 - **Debug** a Production Process
+## Exercise 1.4 - **Debug** a Production Process
 1. Before we can debug/test/run our production process, we need to set some data in DM so that we can use it for our test purposes
     1. Release SFCs for testing purposes using the Manage Orders app
         1. Open a duplicate tab in the browser and navigate to the **Manage Orders** app
