@@ -26,22 +26,25 @@ The requirements to follow the exercises in this repository are:
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Getting Started - Access SAP Digital Manufacturing](exercises/ex0/README.md)
+- [Exercise 1 - Create, deploy and run a Production Process](exercises/ex1/README.md)
+    - [Exercise 1.1 - Create a Production Process](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.2 - Publish a Production Process to Service Registry](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.3 - Deploy a Production Process](exercises/ex1#exercise-13-sub-exercise-3-description)
+    - [Exercise 1.4 - Debug a Production Process](exercises/ex1#exercise-14-sub-exercise-4-description)
+- [Exercise 2 - Overview of supporting apps for Production Process Designer](exercises/ex2/)
+    - [Exercise 2.1 Overview of Monitor Production Processes](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 Overview of Manage Service Registry](exercises/ex2#exercise-22-sub-exercise-2-description)
+    - [Exercise 2.3 Overview of Manage Automatic Triggers](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 3 - Extending standard DM business processes using the Production Process Designer and related apps](exercises/ex3/README.md)
+  - [Exercise 3.1 Create sample orders for our tests using Manage Orders app](exercises/ex3#exercise-31-sub-exercise-1-description)
+  - [Exercise 3.2 Create a Production Process using Production Process Designer app that implements the custom logic for our requirement](exercises/ex3#exercise-32-sub-exercise-2-description)
+  - [Exercise 3.3 Trigger the Production Process using the Manage Automatic Triggers](exercises/ex3#exercise-33-sub-exercise-3-description)
+  - [Exercise 3.4 Test End to End with the Work Center POD ](exercises/ex3#exercise-34-sub-exercise-4-description)
+- [Exercise 4 - Extension capabilities in Manufacturing Insights](exercises/ex4/README.md)
+  - [Exercise 4.1 - Create a dashboard using Embedded SAP Analytics Cloud capabilities in SAP Digital Manufacturing](exercises/ex4#exercise-41-sub-exercise-1-description)
+  - [Exercise 4.2 - Explore the APIs on Manufacturing Data Objects](exercises/ex4#exercise-42-sub-exercise-2-description)
 
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

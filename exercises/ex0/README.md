@@ -1,4 +1,4 @@
-# Access Digital Manufacturing
+# Getting Started - Access SAP Digital Manufacturing
 1. Login to SAP Digital Manufacturing using the details provided by the presenters
 2. Set the _Plant_ context for your session (the plant assigned to you will be provided during the session)
     1. Open the SAP Digital Manufacturing UI in your browser.
