@@ -1,4 +1,3 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DT160)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DT160)
 
 # 116781 - Design and Build Extensions on SAP Digital Manufacturing
 
