@@ -4,3 +4,10 @@
     1. Open the SAP Digital Manufacturing UI in your browser.
     2. Click on the Plant Icon ![Plant](exercises/ex1/images/Plant Icon.png) on the top right corner of the screen.
     3. Select the Plant assigned to you from the list of plants.
+3. Set the _Workcenter_ context for your session
+   1. Go to the app **Manage User Assignments**. _Tip - Use the Search at the top of the UI to find the app_
+   2. Select the user assigned to you
+   3. In the Work Center section, click on **Add**
+   4. Select checkbox at the top to select all the workcenters
+   5. Click on **Select** button
+   6. Click on **Save** button
