@@ -59,33 +59,27 @@ In this exercise, we will create a dashboard using the **Manage Dashboards** app
 SAP Digital Manufacturing also provides the ability to use APIs to retrieve the data in MDOs and use it in custom apps. 
 In this exercise, we'll use a client like Postman to explore the APIs available on the MDOs.
 
-1. Open Postman and create a new collection
-2. Add a new request 
-3. Provide a name for the request, e.g. **Get Token**
-4. Select the **Get** method
-5. The URL will be provided by the speakers during the session
-6. Set the Authorization to **Basic Auth** and provide the username and password provided by the speakers during the session
-7. Click on **Send** to execute the request
-8. You should see a response with the access token
-9. Copy the access token 
-10. Create another request in the same collection
-11. Provide a name for the request, e.g. **Get metadata**
-12. Select the **Get** method
-13. The URL will be provided by the speakers during the session
-14. Set the Authorization to **Bearer Token** and paste the access token copied in the previous step
-15. Click on **Send** to execute the request
-16. You should see a response with the metadata for the available OData endpoints for the MDOs
-17. Create another request in the same collection
-18. Provide a name for the request, e.g. **Get SFCProductionEvents**
-19. Select the **Get** method
-20. The URL will be provided by the speakers during the session
-21. Set the Authorization to **Bearer Token** and paste the access token copied in the previous step
-22. Click on **Send** to execute the request
-23. You should see a response with the data for the SFCProductionEvents MDO
-24. Modify the request and add the filter for your order and sfc. e.g. $filter=Order eq 'xyz' and Sfc eq 'abc'&$format=json 
-25. Click on **Send** to execute the request
-23. You should see a response with the data for the SFCProductionEvents MDO
-26. You can now explore the other MDOs and APIs available in SAP Digital Manufacturing
+1. Open Postman 
+2. Create a new request in a collection or scratchpad
+3. Select the **Get** method
+4. Use the url: https://api.test.eu20.dmc.cloud.sap/dmci/v1/extractor/$metadata?format=json
+5. Set the Authorization as below:
+   1. Type: **OAuth 2.0**
+   2. Token: **TechEdSessionToken**
+   3. In the __Configure New Token__ section, enter the details as below:
+      1. Grant Type: **Client Credentials**
+      2. Access Token URL: __Will be shared during the session__
+      3. Client ID: __Will be shared during the session__
+      4. Client Secret: __Will be shared during the session__
+6. Click on **Get New Access Token** to execute the request
+7. Click on **Proceed** in the dialog that opens
+8. Click on **Request Token** in the dialog that opens
+9. Click on **Send** to execute the request
+10. You should see a response with the metadata for the available OData endpoints for the MDOs
+11. Duplicate the request and change the request url to: https://api.test.eu20.dmc.cloud.sap/dmci/v1/extractor/SFCProductionEvents?format=json&$filter=(Plant eq 'TE1')
+    1. **Note: Update the filter as per the plant assigned to you for the session**
+12. You should see a response with the data for the SFCProductionEvents MDO
+13. You can now explore the other MDOs and APIs available in SAP Digital Manufacturing
 ## Summary
 
 You now have hands-on experience on building custom dashboards using the embedded SAP Analytics Cloud capabilities in SAP Digital Manufacturing. 
