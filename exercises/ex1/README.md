@@ -33,7 +33,7 @@ After completing this exercise, you will be able to:
 9. Familiarize yourself with the menu options on the left-hand side of the screen.
     1. Hover the mouse over the icons to see the tooltip.
     2. For the exercises in this session, we'll mainly focus on the **Editor**
-       <br>![Editor](exercises/ex0/images/PPD - Editor.png)
+       <br>![Editor](../ex1/images/PPD%20-%20Editor.png)
 10. The rest of the screen is used for the canvas where we'll design the Production Process using the controls, services and processes available on the left.
 11. Drag and drop the control **Start** from the **Controls** section on the left-hand side of the screen to the canvas.
 12. Select the **Start** control on the canvas and click on the **Input Parameters** tab on the right-hand side of the screen.
@@ -87,7 +87,7 @@ After completing this exercise, you will be able to:
     1. Release SFCs for testing purposes using the Manage Orders app
         1. Open a duplicate tab in the browser and navigate to the **Manage Orders** app
         2. Select an order. This takes you to the Order Details
-        3. You can release an order by clicking on the **Release In Background** button in the top right menu
+        3. You can release an order by clicking on the **Release In Background** button in the top right menu. Enter the quantity to be released as 5.
         4. Once the order is released, you can click on the **SFCs** tab to see the list of SFCs created for the order
     2. Open the **Work Center POD (Default)** app. This app allows you to report the work being performed on SFCs
     3. Select the Work Center **WC-LIFT** and the Resource **ARCWELD-3** from the dialogues that open when clicking on the respective input fields and click on **Go**
