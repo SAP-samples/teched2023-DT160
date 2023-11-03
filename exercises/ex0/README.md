@@ -1,7 +1,5 @@
 # Getting Started - Access SAP Digital Manufacturing
 1. Login to SAP Digital Manufacturing using the details provided by the presenters
-   URL: https://dmcazqualityhc1.test.execution.eu20.dmc.cloud.sap/cp.portal/site#Shell-home
-   **Note: You need to sign in with __dm-preprod.accounts400.ondemand.com__ as the Identity Provider** 
 2. Set the _Plant_ context for your session (the plant assigned to you will be provided during the session)
     1. Open the SAP Digital Manufacturing UI in your browser.
     2. Click on the Plant Icon ![Plant](../ex0/images/Plant%20Icon.png) on the top right corner of the screen.
