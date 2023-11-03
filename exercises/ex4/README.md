@@ -71,6 +71,12 @@ In this exercise, we'll use a client like Postman to explore the APIs available 
       2. Access Token URL: __Will be shared during the session__
       3. Client ID: __Will be shared during the session__
       4. Client Secret: __Will be shared during the session__
+      5. Details for Public API Invocation 
+         1. API URL: https://api.test.eu20.dmc.cloud.sap/dmci/v1/extractor/$metadata?format=json
+         2. Authentication URL: https://dmcazqualityhc1.authentication.eu20.hana.ondemand.com/oauth/token
+         3. Client ID: sb-b0dfa869-dab6-4d00-a00b-ef5addb18454!b1472|dmc-services-quality!b330 
+         4. Client Secret: 69efe16f-6937-4085-9f3d-c516692d6b40$Aaa_8ecjdKmB1-SXv05khNRMi8MKopsLgx1Nan0Fq9g=
+
 6. Click on **Get New Access Token** to execute the request
 7. Click on **Proceed** in the dialog that opens
 8. Click on **Request Token** in the dialog that opens
