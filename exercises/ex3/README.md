@@ -113,23 +113,30 @@ In this exercise, we'll configure the Manage Automatic Triggers app with a busin
    2. PLANT - plant
    3. QUANTITY - sfcs[0].quantity
 5. Click on the **Save** button
+6. Click on the **Quick Deploy** button
 
 ## Exercise 3.4 Test End to End with the Work Center POD 
 
-1. Go to the app **Work Center POD (Default)**. _Tip - Use the Search at the top of the UI to find the app_.
-2. Select the Work Center **WC-LIFT** and the Resource **ARCWELD-3** from the dialogues that open when clicking on the respective input fields and click on **Go**
-3. The Work List will show a list of SFCs that are available for work based on the selection criteria
-4. Select a SFC from the list and click on the **Start** button
-5. Click on the **Nonconformance** button
-   1. This opens the NC Selection plugin and the Nonconformance Data Entry plugin
-   2. On the left-hand side panel of the NC Selection plugin, select the **All** Nonconformance Group
-   3. On the right-hand side panel of the NC Selection plugin, click on the **Log NC** button in the row for the Non Conformance code **SCRAPPED**
-   4. In the Nonconformance Data Entry plugin, click on **Add** and then click on **Done**
-6. Go to the app **Manage Orders**. _Tip - Use the Search at the top of the UI to find the app_.
-7. Select the Order that was used in the previous steps and click on the row to go to the details of the order
-8. Notice the change in the **Available Quantity to Release**. It should be updated as per the logic in the production process defined in the earlier exercise
-9. Try the steps above for another SFC belonging to an order where the **Auto Release on Scrap** is set to **false**. Notice that the **Available Quantity to Release** is not updated
-10. You can now proceed to the next exercise
+1. Setting up Non Conformance Codes to be used in the Work Center POD
+2. Go to the app **Manage Nonconformance Codes**. _Tip - Use the Search at the top of the UI to find the app_.
+3. Search for the Nonconformance Code **SCRAPPED** and click on the row to go to the details of the Nonconformance Code
+4. Set **Can Be Primary Code** to **Yes**
+5. Assign **Nonconformance Disposition Routing** to **SCRAP**
+6. CLick on **Save**
+7. Go to the app **Work Center POD (Default)**. _Tip - Use the Search at the top of the UI to find the app_.
+8. Select the Work Center **WC-LIFT** and the Resource **ARCWELD-3** from the dialogues that open when clicking on the respective input fields and click on **Go**
+9. The Work List will show a list of SFCs that are available for work based on the selection criteria
+10. Select a SFC from the list and click on the **Start** button
+11. Click on the **Nonconformance** button
+    1. This opens the NC Selection plugin and the Nonconformance Data Entry plugin
+    2. On the left-hand side panel of the NC Selection plugin, select the **All** Nonconformance Group
+    3. On the right-hand side panel of the NC Selection plugin, click on the **Log NC** button in the row for the Non Conformance code **SCRAPPED**
+    4. In the Nonconformance Data Entry plugin, click on **Add** and then click on **Done**
+12. Go to the app **Manage Orders**. _Tip - Use the Search at the top of the UI to find the app_.
+13. Select the Order that was used in the previous steps and click on the row to go to the details of the order
+14. Notice the change in the **Available Quantity to Release**. It should be updated as per the logic in the production process defined in the earlier exercise
+15. Try the steps above for another SFC belonging to an order where the **Auto Release on Scrap** is set to **false**. Notice that the **Available Quantity to Release** is not updated
+16. You can now proceed to the next exercise
        
 
 ## Summary
